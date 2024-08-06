@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+  
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+
+    box-sizing: border-box;
+}
+
+img{
+
+    height:auto;
+    max-width: 100%;
+    /* 基準線對齊 */
+    vertical-align: middle;
+
+}
+
+a{  
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    /* 設定主要字體與通用字體 */
+    /* 先英文後中文 最後再用通用字體 */
+    /* 字體有英文者 要用雙引號括弧起來 */
+    font-family: "Castoro","微軟正黑體",serif;
+    font-style: 24px;
+}
+h1{
+/* line-height代表實際高度 */
+    line-height:1.5;
+}
+
+h2{
+    font-family: "Castoro","微軟正黑體",serif;
+    line-height: 1.5;
+}
+
+.container{
+    width:1296px;
+    /*  margin: 0 auto必須使用在區塊元素*/
+    margin: 0 auto;
+
+}
+
+.title{
+
+    font-size: 128px;
+    /* letter spacing字元間距用em 表示用字體大小乘於em表示字元間距 */
+    letter-spacing: 0.12em;
+    padding-left: 155px;
+   
+}
+
+
+.text-right{
+
+    text-align:right;
+    /* padding-left: 485px; */
+}
+
+.title-img{
+    display:block;
+    margin:0 auto;
+    /* padding-left: 155px; */
+    /* text-align: center; 只用於內部元素 */
+}
+
+.desc{
+
+    background-color: #EFEFEF;
+    padding:48px 0;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.w-50{
+    width:50%;
+    
+}
+
+.w-636{
+    width:636px;
+}
+
+.margin-left
+{
+    margin-left: auto;
+}
+
+.list-item-name{
+    width: 636px;
+    font-size:40px;
+    line-height: 1.5;
+    color: #AE0000;
+    border-bottom:solid #AE0000;
+    margin-top:16px;
+    
+}
+.social-media{
+    text-align: center;
+    padding: 64px 0px;
+    background-color:#000;
+}
+
+
+.social-media li{
+
+    display:inline-block;
+}
+
+.mr-10{
+    margin-right: 40px;
+}
+
+.mb-4{
+    margin-bottom :16px;
+}
+
+.mb-10{
+    margin-bottom: 40px;
+}
+
+.mb-40{
+    margin-bottom: 160px;
+}
+
+.fs-5{
+    font-size: 20px;
+}
+
+.fs-6{
+    font-size: 24px;
+}
+
+.fs-i{
+    font-style: italic;
+}
+
+.about-list{
+    line-height: 1.5;
+}
+
+.c-949494{
+    color:#949494;
+}
